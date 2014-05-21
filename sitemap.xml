@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://hopin.co.in/</loc>
+</url>
+<url>
+  <loc>http://hopin.co.in/home</loc>
+</url>
+<url>
+  <loc>http://hopin.co.in/blog</loc>
+</url>
+<url>
+  <loc>http://hopin.co.in/quickpeek</loc>
+</url>
+<url>
+  <loc>http://hopin.co.in/aboutus</loc>
+</url>
+<url>
+  <loc>http://hopin.co.in/contact</loc>
+</url>
+<url>
+  <loc>http://hopin.co.in/terms</loc>
+</url>
+</urlset>

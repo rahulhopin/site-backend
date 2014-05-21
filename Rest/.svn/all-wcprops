@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/gkhaneja/Mooov/!svn/ver/191/trunk/Rest
+END
+RestService.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gkhaneja/Mooov/!svn/ver/15/trunk/Rest/RestService.php
+END
+UserService.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gkhaneja/Mooov/!svn/ver/191/trunk/Rest/UserService.php
+END
+ChatService.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gkhaneja/Mooov/!svn/ver/75/trunk/Rest/ChatService.php
+END
+UserDetailsService.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gkhaneja/Mooov/!svn/ver/182/trunk/Rest/UserDetailsService.php
+END
+ServiceFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gkhaneja/Mooov/!svn/ver/190/trunk/Rest/ServiceFactory.php
+END
+RequestService.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gkhaneja/Mooov/!svn/ver/187/trunk/Rest/RequestService.php
+END

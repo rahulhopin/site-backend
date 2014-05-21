@@ -1,0 +1,178 @@
+@import url("bootstrap.min.css");
+.listrownearbyuser
+ {
+text-align:left;
+border:1px solid gray!important;
+margin-bottom:10px;
+ }
+ 
+  .nearbyuserpiccol
+{
+margin:0;
+padding:0;
+}
+
+.nearbyuserpicscontainer
+{
+ margin-left: auto; 
+ margin-right: auto;
+ width:100%;
+ 
+}
+
+.nearbyuserthumbnailpic
+{
+vertical-align: middle;
+ display:block;
+height:150px !important;
+width:200px;
+margin: auto;
+top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.nearbyuser_name label
+{
+font-size:12px;
+font-weight:normal;
+color:gray;
+}
+
+.nearbyuser_name h3
+{
+padding:0px;
+margin:0px;
+}
+
+
+.center {
+margin-left:auto;
+margin-right:auto; 
+}
+
+.nearbyuserpiccol ul
+{
+list-style-type:none;
+padding-left: 0px;
+display:block;
+}
+
+.nearbyuserpiccol li
+{
+width:90%;
+max-width:200px;
+margin-left:auto;
+margin-right:auto;
+border-bottom:1px dotted black;
+}
+
+.nearbyuserdetailsname  a
+{
+color:#ADB1AD;
+font-family: 'Whitney Cond A', 'Whitney Cond B', "ronnia-condensed", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 16px;
+padding:5 !important;
+margin-right:0 !important;
+overflow:hidden;
+white-space:nowrap;
+border-bottom: 1px solid #4F7446 !important;
+}
+.nearbyuserdetailsname a:hover{
+border: 1px solid #2C1212 !important;
+background:transparent !important;
+color:#ADB1AD;
+text-decoration:none;
+}
+.nearbyuserdetailsname a:focus{
+border: 1px solid #2C1212 !important;
+background:transparent;
+color:#ADB1AD;
+text-decoration:none;
+}
+
+.nearbyusertraveldetails
+{
+padding-left:5px;
+padding-top:0;
+max-width:100%;
+background:transparent;
+}
+.nearbyusertraveldetails ul
+{
+list-style-type: none;
+ padding-left:5px;
+ display:block;
+ margin-bottom:0;
+}
+.nearbyusertraveldetails li
+{
+line-height:220%;
+color: black;
+//color: #858B88;
+font-size:13px;
+max-width:inherit;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+display:list-item;
+}
+li.nearbyusersource
+{
+padding-left:20px;
+background:url(../img/source_marker_small.png) left top no-repeat;
+line-height:220%;
+color: black;
+//color: #858B88;
+font-size:12px;
+max-width:inherit;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden; 
+}
+li.nearbyuserdestination
+{
+padding-left:20px;
+background:url(../img/destination_marker_small.png) left top no-repeat;
+line-height:220%;
+color: black;
+//color: #858B88;
+font-size:12px;
+max-width:inherit;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden; 
+}
+li.nearbyusertime
+{
+padding-left:20px;
+background:url(../img/time_clock_small.png) left top no-repeat;
+line-height:220%;
+color: black;
+//color: #858B88;
+font-size:12px;
+}
+
+.communicationbar a
+{
+margin-top:10px;
+margin-bottom:10px;
+margin-left:5px;
+margin-right:10px;
+padding-left:15px;
+text-decoration:none;
+background-image:url(../img/arrowblue.png);
+background-repeat:no-repeat;
+}
+
+.communicationbarfiller
+{
+height:30px;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+

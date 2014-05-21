@@ -1,0 +1,349 @@
+@import url("bootstrap.min.css");
+
+
+ 
+ .listrow
+ {
+border-radius: 1px 1px 1px 1px;
+-moz-box-shadow:    inset 0 0 4px #ffffff;
+   -webkit-box-shadow: inset 0 0 4px #ffffff;
+   box-shadow:         inset 0 0 4px #ffffff;
+margin-bottom:10px;
+text-align:left;
+background:#4f4e4e;
+ }
+ 
+ div.nearbyuseralldetails
+{
+float:left;
+padding:5px;
+max-width:100%;
+}
+
+.center {
+margin-left:auto;
+margin-right:auto; 
+
+}
+
+.dropshadowclass {
+        border: solid 1px #CCC;
+-moz-box-shadow: 5px 5px 0px #999;
+-webkit-box-shadow: 5px 5px 0px #999;
+        box-shadow: 5px 5px 0px #999;
+        }
+
+ 
+.communicationpopup 
+{
+border-radius: 3px 3px 3px 3px;
+     border: solid 1px #CCC;
+ -moz-box-shadow:    1px 1px 1px 1px #ccc;
+  -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+  box-shadow:         0px 0px 1px 1px #ccc;
+background:#FAFAFA;
+text-align:center;
+width:100px;
+padding-left:0px;
+padding-right:0px;
+display:none;
+background:gray;
+}
+
+.communicationpopup  ul
+{
+margin-top:10px;
+margin-bottom:10px;
+list-style-type: none;
+padding:0;
+}
+
+.communicationpopup  a
+{
+text-decoration: none;
+color:white;
+font-family: 'Whitney Cond A', 'Whitney Cond B', "ronnia-condensed", sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 14px;
+height:inherit;
+width:inherit;
+display: block;
+padding-top:8px;
+padding-bottom:8px;
+}
+
+.communicationpopup  a:hover
+{
+color:white;
+background:rgb(40,173,13);
+}
+
+.listrow hr
+{
+margin-top:5px;
+margin-bottom:5px;
+border-top: 1px solid white !important;
+}
+
+
+a.nearbyuserdetailsname  
+{
+color:#CDD1CD;
+font-family: 'Whitney Cond A', 'Whitney Cond B', "ronnia-condensed", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 22px;
+padding-top:10px;
+line-height:100%;
+padding-left:10px;
+}
+
+a.nearbyuserdetailsname:hover{
+color:#BDBEBD;
+text-decoration:none;
+}
+
+a.nearbyuserdetailsname:focus{
+color:#BDBEBD;
+text-decoration:none;
+}
+
+.takeofferride_icon
+{
+vertical-align:top;
+}
+
+.recency
+{
+color: white;
+//color: #5a5b5a;
+font-size: 12px;
+font-weight: 300;
+display:table;
+}
+
+.personaldetailvalue
+{
+font-weight: 800;
+color: white;
+//color:#8F8FAF;
+font-size: 14px;
+font-family: "Times New Roman",Verdana,Serif;
+}
+
+.expandpersonaldetailbutton 
+{
+float:right;
+background-image: url(/img/list_downarrow.png); 
+background-repeat: no-repeat;
+background-size: 16px 30px;
+background-position: 0 2px;
+height:16px;
+width:16px;
+margin-right:15px;
+}
+
+a.expandpersonaldetailbutton:hover
+{
+background-position: 0 -12px;
+cursor:pointer;
+}
+
+.hidepersonaldetailbutton 
+{
+float:right;
+background-image: url(/img/list_uparrow.png); 
+background-repeat: no-repeat;
+background-size: 16px 28px;
+background-position: 0 -17px;
+height:16px;
+width:16px;
+margin-right:15px;
+}
+
+a.hidepersonaldetailbutton:hover
+{
+background-position: 0 0px;
+cursor:pointer;
+}
+
+.nearbyuserpersonaldetails
+{
+z-index:5;
+padding:5px;
+padding-top:0;
+max-width:100%;
+}
+.nearbyuserpersonaldetails ul
+{
+list-style-type: none;
+ padding-left:5px;
+ display:block;
+ margin-bottom:0;
+}
+
+.nearbyuserpersonaldetails li
+{
+
+line-height:220%;
+color: white;
+//color: #858B88;
+font-size:13px;
+max-width:inherit;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+display:list-item;
+}
+
+.nearbyusertraveldetails
+{
+background:#4f4e4e;
+position:absolute;
+z-index:10;
+bottom:36px;
+left:0px;
+width:99%;
+padding:5px;
+padding-top:5px;
+
+}
+
+.nearbyusertraveldetails ul
+{
+list-style-type: none;
+ padding:5px;
+ margin-bottom:0;
+}
+
+li.nearbyusersource
+{
+padding-left:20px;
+background:url(../img/source_marker_small.png) left top no-repeat;
+line-height:220%;
+color: white;
+//color: #858B88;
+font-size:12px;
+max-width:inherit;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden; 
+}
+li.nearbyuserdestination
+{
+padding-left:20px;
+background:url(../img/destination_marker_small.png) left top no-repeat;
+line-height:220%;
+color: white;
+//color: #858B88;
+font-size:12px;
+max-width:inherit;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden; 
+}
+li.nearbyusertime
+{
+padding-left:20px;
+background:url(../img/time_clock_small.png) left top no-repeat;
+line-height:220%;
+color: white;
+//color: #858B88;
+font-size:12px;
+}
+
+.outershadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+.innershadow {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+.thumbnailpic
+{
+height:200px;
+width:100%;
+}
+
+.darkbackground
+{
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.6)), color-stop(100%,rgba(0,0,0,0.6))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#99000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+.button {
+display:inline-block;
+background: gray;
+box-shadow: inset rgba(0,0,0,.62) 0 0 0 1px,inset rgba(255,255,255,.12) 0 0 0 2px,rgba(0,0,0,.07) 0 2px 0;
+color: #f3f3f3;
+cursor: pointer;
+font-weight: 800;
+font-family:arial;
+font-size:15px;
+font-weight:bold;
+padding:2px 6px 2px 6px;
+//border-style:solid;
+//border-color:white;
+//border-width:1px;
+border-radius: 3px;
+margin-top:4px;
+font-size: 12px;
+font-weight: 700;
+line-height: 25px;
+white-space: nowrap;
+-webkit-transition: background .17s ease-in-out;
+-moz-transition: background .17s ease-in-out;
+-ms-transition: background .17s ease-in-out;
+transition: background .17s ease-in-out;
+margin-right:10px;
+
+}
+a.button:hover { 
+  color: #f3f3f3;
+ background: #575757;;
+ text-decoration:none;
+}
+
+a.button:focus { 
+outline:0px;
+color: #f3f3f3;
+text-decoration:none;
+}
+a.button:active { 
+background: #484848;
+color: #f3f3f3;
+box-shadow: inset rgba(0,0,0,.62) 0 0 0 1px,inset rgba(0,0,0,.48) 0 0 4px 1px,rgba(0,0,0,.02) 0 1px 0;
+-webkit-transition: background 0 linear;
+-moz-transition: background 0 linear;
+-ms-transition: background 0 linear;
+transition: background 0 linear;
+}
+
+.communicationbar li
+{
+display:inline;
+}
+
+ul.communicationbar 
+{
+margin-bottom:0px;
+}
+
+.signup-form-group{
+width: 40%;
+text-align: left;
+margin-top : 10px;
+}
+

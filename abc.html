@@ -1,0 +1,22 @@
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog"  aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-header darkbackground" style="color:white;font-size:20px;padding: 5px;">Login / Sign-up</div>
+<div class="modal-content">
+<div class="modal-body">
+<span style="font-size:22px;color: #E21E1E;">Want to chat with co-travellers and fix ride instantly?</span> <a class="btn btn-social btn-facebook" onclick="Login.FBLogin();return false;" style="margin-bottom:8px;margin-top:15px;padding-left:40px;font-size:25px">  <i class="fa fa-facebook" style="padding-top:8px;"></i> Sign in with Facebook</a>
+<a class="btn btn-block btn-social btn-linkedin" onclick="Login.LinkedinLogin();return false;">  <i class="fa fa-linkedin"></i> Sign in with Linkedin</a>
+<p>*we do <strong>not</strong> post on wall, only access basic public info</p>
+<hr style="margin-top:30px;margin-bottom:30px;width:80%;"><label style=" font-size: 25px;  position: relative;  top: -49px;">Or</label>
+<div style="position:relative;top:-35px;"> <ul class="nav nav-tabs"> <li style="width:50%;font-weight: 700;font-size: 16px;" class="active"><a href="#login" data-toggle="tab">Login</a></li>  <li style="width:50%;font-weight: 700;font-size: 16px;"> <a href="#signup" data-toggle="tab">Sign-Up</a></li> </ul>
+<div class="logintabs tab-content center" style="width:70%;margin-top:20px;">
+<div class="tab-pane active" id="login">
+<form role="form" data-toggle="validator" >  <div class="signup-form-group">    <label for="formemail">Email address</label>    <input type="email" class="form-control" id="formemail" placeholder="Enter email" data-error="Bruh, that email address is invalid" required>  </div>  <div class="signup-form-group">    <label for="formpassword">Password</label>    <input type="password" class="form-control" id="formpassword" placeholder="Password">  </div> <div class="signup-form-group"> <a type="submit" class="btn " onclick="Login.emailLogin();return false;" style="  background-color: hsl(122, 47%, 40%) !important; color: white; padding: 5px; font-size: 22px; margin-top: 20px;"><img src="./img/hopin_icon.png" style=" border-right: 1px solid rgba(0,0,0,0.2); padding-right: 5px;">  Login with hopin</a> </div></form>
+</div>;
+<div class="tab-pane" id="signup">
+<form rolei="form">  <div class="signup-form-group">    <label for="name">Name</label>    <input type="text" class="form-control" id="name" placeholder="Enter Name">  </div>  <div class="signup-form-group">    <label for="formemail">Email address</label>    <input type="email" class="form-control" id="formemail" placeholder="Enter email">  </div>  <div class="signup-form-group">    <label for="formpassword">Password</label>    <input type="password" class="form-control" id="formpassword" placeholder="Password">  </div> <div class="signup-form-group"> <button type="submit" class="btn btn-success" style="font-size: 20px;margin-top: 15px;background-color: hsl(122, 47%, 40%);" onclick="Login.emailSignup();return false;">Register</button> </div></form>
+</div>
+<p id="loginstatus"> </p></div>
+</div>
+</div>
+</div>
+</div>

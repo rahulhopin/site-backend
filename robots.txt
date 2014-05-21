@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: 
+Allow: /home
+Allow: /search
+Allow: /blog
+Allow: /quickpeek

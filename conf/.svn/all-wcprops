@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/gkhaneja/Mooov/!svn/ver/187/trunk/conf
+END
+dev.conf
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gkhaneja/Mooov/!svn/ver/171/trunk/conf/dev.conf
+END
+chat.conf
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gkhaneja/Mooov/!svn/ver/76/trunk/conf/chat.conf
+END
+constants.inc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gkhaneja/Mooov/!svn/ver/114/trunk/conf/constants.inc
+END
+service.conf
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gkhaneja/Mooov/!svn/ver/76/trunk/conf/service.conf
+END
+apache.conf
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gkhaneja/Mooov/!svn/ver/179/trunk/conf/apache.conf
+END
+devdb.inc
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gkhaneja/Mooov/!svn/ver/187/trunk/conf/devdb.inc
+END
+db.inc
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gkhaneja/Mooov/!svn/ver/187/trunk/conf/db.inc
+END
+google.conf
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gkhaneja/Mooov/!svn/ver/58/trunk/conf/google.conf
+END

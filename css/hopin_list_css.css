@@ -1,0 +1,75 @@
+
+ .searchrow
+ {
+ margin-top:10px;
+ box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+background-color: #FFFFFF;
+ }
+.nearbyuserthumbnail
+{
+float:left;
+margin: 15px 20px 20px 25px;
+padding: 5px;
+border: solid 1px #EFEFEF;
+height:115px;
+width:110px;
+} 
+
+.dropshadowclass {
+        border: solid 1px #CCC;
+	-moz-box-shadow: 5px 5px 0px #999;
+	-webkit-box-shadow: 5px 5px 0px #999;
+        box-shadow: 5px 5px 0px #999;
+        }
+
+div.nearbyuserdetails
+{
+float:left;
+}
+
+div.nearbyuserdetails ul
+ {
+ list-style-type: none;
+ padding-left:0px;
+ 
+ }
+
+li.nearbyuserdetailsname
+{
+font-family: 'Whitney Cond A', 'Whitney Cond B', "ronnia-condensed", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 25px;
+padding-top:10px;
+line-height:100%;
+}
+
+a:hover, a:focus {
+color: #2445ae;
+text-decoration:none;
+}
+
+li.nearbyusersource
+{
+padding-left:20px;
+background:url(../img/source_marker.png) left center no-repeat;
+line-height:220%;
+color: #858B88;
+font-size:14px;
+}
+li.nearbyuserdestination
+{
+padding-left:20px;
+background:url(../img/destination_marker.png) left center no-repeat;
+line-height:220%;
+color: #858B88;
+font-size:14px;
+}
+li.nearbyusertime
+{
+padding-left:20px;
+background:url(../img/time_clock.png) left center no-repeat;
+line-height:220%;
+color: #858B88;
+font-size:14px;
+}

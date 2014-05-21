@@ -1,0 +1,136 @@
+@import url("bootstrap.min.css");
+.ui-chatbox {
+    position: fixed;
+    bottom:0;
+   z-index:1050;
+    background:  #CCCCCC;
+border-top-right-radius: 4px;
+border-top-left-radius: 4px;
+-moz-box-shadow: inset rgba(255,255,255,.26) 0 0 0 1px, rgba(31,31,31,.75) 0 0 0 1px, rgba(0,0,0,.07) 0 1px 0 1px;
+-webkit-box-shadow: inset rgba(255,255,255,.26) 0 0 0 1px, rgba(31,31,31,.75) 0 0 0 1px, rgba(0,0,0,.07) 0 1px 0 1px;
+box-shadow: inset rgba(255,255,255,.26) 0 0 0 1px, rgba(31,31,31,.75) 0 0 0 1px, rgba(0,0,0,.07) 0 1px 0 1px;
+
+}
+
+.ui-chatbox-titlebar {
+    padding: 3px;
+    height: 28px;
+    cursor: pointer;
+border: 1px solid #aaaaaa;
+ background-color: hsl(122, 47%, 40%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#43bb47", endColorstr="#47c54b");
+  border-color: #47c54b #47c54b hsl(122, 47%, 37.5%);
+  color: #fff !important;
+  -webkit-font-smoothing: antialiased;
+color: #222222;
+font-weight: bold;
+font-family: Arial,Liberation Sans,DejaVu Sans,serif;
+text-align:left;
+border-top-right-radius: 4px;
+border-top-left-radius: 4px;
+}
+
+.ui-chat-focustitlebar
+{
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#43bb47), to(#47c54b));
+  background-image: -moz-linear-gradient(top, #53e358, #47c54b);
+  background-image: -ms-linear-gradient(top, #53e358, #47c54b);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #53e358), color-stop(100%, #47c54b));
+  background-image: -webkit-linear-gradient(top, #53e358, #47c54b);
+  background-image: -o-linear-gradient(top, #53e358, #47c54b);
+  background-image: linear-gradient(#43bb47, #47c54b);
+}
+
+.ui-chatbox-content {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.ui-chatbox-log {
+    padding: 3px;
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #FFFFFF;
+}
+
+.ui-chatbox-input {
+    padding: 3px;
+    border-top: 1px solid grey;
+    overflow: hidden;
+background:white;
+}
+
+.ui-chatbox-input-box {
+    margin: 5px;
+    border: 2px solid lightgrey;/* #6699FF */
+    padding: 2px;
+    height: 50px;
+background:white;
+width:95%;
+}
+
+.ui-chatbox-input-focus {
+    border-color: #6699FF;
+}
+
+.ui-chatbox-msg {
+    float: left;
+    clear: both;
+    /* Source: http://snipplr.com/view/10979/css-cross-browser-word-wrap */
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
+}
+
+.ui-chatbox-minimize
+{
+padding-top:3px;
+margin-right:3px;
+width: 16px;
+height: 16px;
+background: url(../img/button_minimize_white.png);
+background-size:cover;
+float:right;
+}
+
+.ui-chatbox-close
+{
+padding-top:3px;
+width: 16px;
+height: 16px;
+background: url(../img/button_close_white.png);
+background-size:cover;
+float:right;
+}
+
+.chatmsgstatus
+{
+float:right;
+font-size:10px;
+margin-right:10px;
+color:gray;
+margin-top:3px;
+}
+.chatmsgname
+{
+display:block;
+text-align:left;
+margin-bottom:0;
+}
+.chatmsgtext
+{
+text-align:left;
+margin-bottom:0;
+word-wrap:break-word;
+padding-bottom:5px;
+}
+
+.chatmsg
+{
+box-shadow: 0px +2px 1px -2px #888888;
+}

@@ -24,6 +24,11 @@ class UserDetailsService extends RestService
         $user_details->getReferers($arguments);
 
 }
+ public function saveReferrer($arguments){
+        $user_details = new UserDetails();
+        $user_details->saveReferers($arguments);
+
+}
  public function getInfo($arguments){
   $requestobj = new Request();
   if(!isset($arguments['target_user_id'])){

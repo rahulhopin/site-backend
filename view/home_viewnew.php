@@ -54,7 +54,7 @@ public function renderView($output){
  
 
 
-<div class="hidden-xs hidden-sm" style="font-weight:200;color:white;margin-top:30px;font-size:36px;width:100%;">Lets commute, together</div>
+<div class="hidden-xs hidden-sm" style="font-weight:200;color:white;margin-top:30px;font-size:36px;width:100%;">Share rides, instantly!</div>
 <div class="hidden-xs hidden-sm" id="socialcol">
 <ul>
 <li>
@@ -71,7 +71,7 @@ public function renderView($output){
 <a href="http://goo.gl/bi8mB9" style="position:absolute;margin-left:-40px;">
 <img style="width:250px;margin-top:70px;" src="./img/googleplay_download.png" class="img-responsive"></a>
 </div>
-<div class="hidden-xs hidden-sm center" style="color:white;font-weight:400;font-size:25px;width:80%;text-align:left;padding-left:20px;">Find co-travellers, instantly!</div>
+<div class="hidden-xs hidden-sm center" style="color:white;font-weight:400;font-size:25px;width:80%;text-align:left;padding-left:20px;">Find people going your way:</div>
 <div class="hidden-md hidden-lg center" style="font:1.25em Arial,Tahoma,\'Bitstream Vera Sans\',sans-serif;color:white;font-weight:200;font-size:22px;text-align:center;margin-top:10px;margin-bottom:10px;">Find co-travellers </div>
 <!--search box start-->
 <div  class="search-box row center" id="search-box-homepage" >
@@ -79,21 +79,21 @@ public function renderView($output){
 <form class="form" role="form">
       <div class=" col-sm-4" style="padding-left:0;" >
          <i style="background:url(img/source_marker.png) no-repeat;height:30px;width:20px;float:left;margin-top:14px;margin-right:4px;" ></i>
-       <span style="display:block;overflow:hidden;padding:4px;"> <input id="inputsource" autocomplete="off" type="text"  class="textbox" placeholder="Enter source" required></span>
+       <span style="display:block;overflow:hidden;padding:4px;"> <input id="inputsource" autocomplete="off" type="text"  class="textbox" placeholder="Source" required></span>
       </div>
       <div class=" col-sm-4" style="padding-left:0;">
         <i style="background:url(img/destination_marker.png) no-repeat;height:30px;width:20px;float:left;margin-top:14px;margin-right:4px;" ></i>
-         <span style="display:block;overflow:hidden;padding:4px;"> <input id="inputdestination" autocomplete="off" type="text" class="textbox" placeholder="Enter destination" required ></span>
+         <span style="display:block;overflow:hidden;padding:4px;"> <input id="inputdestination" autocomplete="off" type="text" class="textbox" placeholder="Destination" required ></span>
       </div>
   
 
  
- <div class="col-sm-3 date form_datetime datepicker" style="padding-left:10px;" > 
+ <div class="col-sm-3 date form_datetime datepicker" style="padding:0px;" > 
  <div class = "radiogroup">
   <input type="radio" class="css-checkbox" name="radioonetimedailypool" id="radioonetime" >
- <label    class="onetimelabel css-label" style="margin-left:0;margin-right:8px;" onclick="State.instaride=1; State.instaClick(); return false;" >One time</label>
+ <label    class="onetimelabel css-label" style="margin-left:0;margin-right:8px;" onclick="State.instaride=1; State.instaClick(); return false;" >One Trip</label>
  <input type="radio" class="css-checkbox" name="radioonetimedailypool" id="radiodailypool" checked >
- <label   class="dailypoollabel css-label" style="margin-left:0" onclick="State.instaride=0; State.dailyPoolClick(); return false;">Daily pool</label>
+ <label   class="dailypoollabel css-label" style="margin-left:0" onclick="State.instaride=0; State.dailyPoolClick(); return false;">Daily</label>
  </div>
  <div class="datetimegroup hide" style="position:relative;">
  <i style="background:url(img/time_clock.png) no-repeat;height:30px;width:20px;float:left;margin-top:16px;margin-right:6px;" ></i>
@@ -104,7 +104,7 @@ public function renderView($output){
  </div>
 
 <div class="col-sm-1" style="padding:0;">
-     <button type="submit" id="searchbutton" class="btn-default hopinbtn">Search</button>
+     <button type="submit" id="searchbutton" class="btn-default hopinbtn" style="padding:7px">Search</button>
 </div>
    </form> 
 </div>
@@ -139,16 +139,16 @@ public function renderView($output){
 "Great app idea. I am going to print off flyers and place them around in Williston"
 </p>
 <p style="display:none">
-"Traffic here is stupid. I will try to fly your flag, great idea. Save the planet, save your pocket"
+"Traffic here is stupid. I will try to fly your flag, great idea. Save the planet, save your pocket."
 </p>
 <p style="display:none">
-"Thanks a lot for such an amazing app. Looking forward to see this in action"
+"Thanks a lot for such an amazing app. Looking forward to see this in action."
 </p>
 <p style="display:none">
-"I will rate this app a 5 star and also send it to my 600 facebook friends. Again , really cool app "
+"I will rate this app a 5 star and also share it with my 600 facebook friends. Again , really cool app."
 </p>
 <p style="display:none">
-"You should market this app better. It has very huge potential if user base is good"
+"You should market this app better. It has very huge potential if user base is good."
 </p>
 </div>
  </div>
